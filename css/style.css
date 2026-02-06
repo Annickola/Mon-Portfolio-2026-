@@ -1,1 +1,94 @@
+:root{
+  --blue:#2196f3;
+  --light:#f4f6fb;
+  --card:#ffffff;
+  --text:#1f2937;
+}
 
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  background:var(--light);
+  color:var(--text);
+  padding:20px;
+}
+
+.container{
+  max-width:420px;
+  margin:auto;
+}
+
+/* HEADER */
+.header{
+  background:var(--blue);
+  border-radius:20px;
+  padding:25px 20px;
+  text-align:center;
+  color:#fff;
+}
+
+.photo{
+  width:120px;
+  height:120px;
+  margin:0 auto 15px;
+  border-radius:50%;
+  border:4px solid #fff;
+  overflow:hidden;
+}
+
+.photo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.header h1{
+  font-size:20px;
+  font-weight:600;
+}
+
+.header p{
+  font-size:14px;
+}
+
+/* CARDS */
+.card{
+  background:var(--card);
+  margin-top:20px;
+  padding:20px;
+  border-radius:16px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.05);
+}
+
+.card h2{
+  color:var(--blue);
+  margin-bottom:10px;
+  font-size:18px;
+}
+
+.card p, .card li{
+  font-size:14px;
+  line-height:1.6;
+}
+
+ul{
+  padding-left:18px;
+}
+
+.contact p{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+footer{
+  text-align:center;
+  margin-top:25px;
+  font-size:13px;
+  opacity:0.7;
+}
